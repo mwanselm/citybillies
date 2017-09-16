@@ -5,9 +5,19 @@ body {
 nav svg {
   display: block; }
 
+#solo-logo {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  z-index: 999; }
+
 .item {
   height: 100vh;
-  background: black; }
+  background: url(../images/hero-1.JPG) no-repeat center;
+  background-size: cover; }
+  @media screen and (max-width: 450px) {
+    .item {
+      background: url(../images/bg-mobile.jpg) no-repeat center; } }
 
 .wrapper {
   position: absolute;
