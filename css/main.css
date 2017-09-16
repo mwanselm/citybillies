@@ -15,12 +15,6 @@ nav svg {
   top: 60%;
   left: 50%;
   transform: translate(-50%, -60%); }
-  @media screen and (max-width: 450px) {
-    .wrapper {
-      width: auto;
-      height: 100%;
-      transform: translate(-50%, -50%);
-      top: 50%; } }
 
 .embed-container {
   position: relative;
