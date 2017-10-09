@@ -42,7 +42,8 @@ nav svg {
   height: 100%; }
 
 .events {
-  background-color: white;
+  background: url(../images/bg-light.jpg) no-repeat center;
+  background-size: cover;
   max-width: 1400px;
   padding: 50px 6%;
   margin: 50px auto 0; }
@@ -51,7 +52,9 @@ nav svg {
     margin-bottom: 40px; }
   .events .event {
     margin-bottom: 25px;
-    text-align: center; }
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px 40px; }
     .events .event .description {
       max-width: 500px;
       margin: 0 auto 15px; }
