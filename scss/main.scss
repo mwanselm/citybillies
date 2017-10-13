@@ -116,13 +116,33 @@ nav {
 	.person {
 		opacity: 1;
 	}
+	.band-copy {
+		p {
+			margin-bottom: 25px;
+		}
+	}
+	.col-sm-6 {
+		margin-bottom: 40px;
+		p {
+			//margin-bottom: 0px;
+		}
+	}
+	.name {
+		margin-bottom: 0px;
+		line-height: 1;
+	}
+	.role {
+		margin-bottom: 15px;
+	}
 	@media screen and (max-width: 768px) {
 		padding: 60px 6%;
-		.col-sm-6 {
-			margin-bottom: 40px;
-			p {
-				margin-bottom: 0px;
-			}
+		
+	}
+}
+footer {
+	ul {
+		li {
+			margin: 0 15px;
 		}
 	}
 }
