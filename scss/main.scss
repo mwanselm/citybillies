@@ -113,4 +113,7 @@ nav {
 
 #band {
 	background: white;
+	@media screen and (max-width: 768px) {
+		padding: 60px 6%;
+	}
 }

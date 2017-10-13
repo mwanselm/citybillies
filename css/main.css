@@ -80,5 +80,8 @@ nav svg {
 
 #band {
   background: white; }
+  @media screen and (max-width: 768px) {
+    #band {
+      padding: 60px 6%; } }
 
 /*# sourceMappingURL=main.css.map */
