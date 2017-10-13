@@ -113,7 +113,16 @@ nav {
 
 #band {
 	background: white;
+	.person {
+		opacity: 1;
+	}
 	@media screen and (max-width: 768px) {
 		padding: 60px 6%;
+		.col-sm-6 {
+			margin-bottom: 40px;
+			p {
+				margin-bottom: 0px;
+			}
+		}
 	}
 }

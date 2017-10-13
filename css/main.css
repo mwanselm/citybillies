@@ -80,8 +80,14 @@ nav svg {
 
 #band {
   background: white; }
+  #band .person {
+    opacity: 1; }
   @media screen and (max-width: 768px) {
     #band {
-      padding: 60px 6%; } }
+      padding: 60px 6%; }
+      #band .col-sm-6 {
+        margin-bottom: 40px; }
+        #band .col-sm-6 p {
+          margin-bottom: 0px; } }
 
 /*# sourceMappingURL=main.css.map */
