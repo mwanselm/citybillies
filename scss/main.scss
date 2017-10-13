@@ -1,7 +1,7 @@
 @import 'base.css';
 
 body {
-	background: black;
+	//background: black;
 }
 nav {
 	//margin-top: 50px;
@@ -9,9 +9,13 @@ nav {
 		display: block;
 	}
 }
-#solo-logo {
-	display: block;
-	margin: 75px auto 0;
+.logo {
+	padding: 75px 0 50px;
+	background: black;
+	svg {
+		display: block;
+		margin: 0 auto;
+	}
 }
 
 .item {
@@ -59,22 +63,30 @@ nav {
 	background: url(../images/bg-light.jpg) no-repeat center;
 	background-size: cover;
 	//color: white;
-	max-width: 1400px;
+	
 	padding: 50px 6%;
-	margin: 50px auto 0;
-	h2 {
+	//margin: 50px 0;
+	h3 {
 		text-align: center;
 		margin-bottom: 40px;
 	}
 	.event {
-		margin-bottom: 25px;
 		text-align: center;
 		background-color: rgba(255,255, 255, .8);
 		padding: 20px 6% 40px;
-		h3 {
+		max-width: 800px;
+		margin: 0 auto 40px;
+		h4 {
 			//color: white;
+<<<<<<< HEAD
 			margin-bottom: 8px;
 			text-transform: uppercase; 
+=======
+			//margin-bottom: 8px;
+			text-transform: uppercase;
+			color: #111 !important;
+			background-color: transparent;
+>>>>>>> origin/gh-pages
 		}
 		.description {
 			max-width: 500px;
@@ -96,8 +108,19 @@ nav {
 			text-align: left;
 			padding-left: 2%;
 		}
+		
+	}
+	.embed-container {
+		margin: 0 auto;
+		max-width: 800px;
 	}
 }
+<<<<<<< HEAD
 #band {
 	padding: 0 4%;
+=======
+
+#band {
+	background: white;
+>>>>>>> origin/gh-pages
 }
