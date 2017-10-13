@@ -78,10 +78,15 @@ nav {
 		margin: 0 auto 40px;
 		h4 {
 			//color: white;
+<<<<<<< HEAD
+			margin-bottom: 8px;
+			text-transform: uppercase; 
+=======
 			//margin-bottom: 8px;
 			text-transform: uppercase;
 			color: #111 !important;
 			background-color: transparent;
+>>>>>>> origin/gh-pages
 		}
 		.description {
 			max-width: 500px;
@@ -110,10 +115,18 @@ nav {
 		max-width: 800px;
 	}
 }
+<<<<<<< HEAD
+#band {
+	padding: 0 4%;
+=======
 
 #band {
 	background: white;
+<<<<<<< HEAD
 	@media screen and (max-width: 768px) {
 		padding: 60px 6%;
 	}
+=======
+>>>>>>> origin/gh-pages
+>>>>>>> origin/gh-pages
 }
