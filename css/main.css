@@ -1,10 +1,26 @@
 @import url(base.css);
+body {
+  color: #0c455e; }
+
 nav svg {
   display: block; }
 
+h3, h4 {
+  color: #02131a; }
+
+.navbar {
+  background-color: #02131a; }
+
+.navbar-nav li.active a {
+  background-color: #0c495e !important;
+  color: #feb904 !important; }
+
+.navbar li a, .navbar .navbar-brand {
+  color: #feb904 !important; }
+
 .logo {
   padding: 75px 0 50px;
-  background: black; }
+  background: #010508; }
   .logo svg {
     display: block;
     margin: 0 auto; }
@@ -47,10 +63,13 @@ nav svg {
   padding: 50px 6%; }
   .events h3 {
     text-align: center;
-    margin-bottom: 40px; }
+    margin-bottom: 40px;
+    color: #feb904 !important;
+    text-transform: uppercase;
+    font-size: 2em; }
   .events .event {
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.87);
     padding: 20px 6% 40px;
     max-width: 800px;
     margin: 0 auto 40px; }
@@ -62,7 +81,7 @@ nav svg {
       max-width: 500px;
       margin: 0 auto 15px; }
     .events .event .date, .events .event .venue {
-      color: #111;
+      color: #02131a;
       width: 48%;
       display: inline-block;
       vertical-align: top;
@@ -95,7 +114,11 @@ nav svg {
     #band {
       padding: 60px 6%; } }
 
-footer ul li {
-  margin: 0 15px; }
+footer {
+  background-color: #031519; }
+  footer a {
+    color: #feb904; }
+  footer ul li {
+    margin: 0 15px; }
 
 /*# sourceMappingURL=main.css.map */
