@@ -39,6 +39,7 @@ h3, h4 {
 	@media screen and (max-width:450px) {
 		background: url(../images/bg-mobile.jpg) no-repeat center;	
 	}
+	
 }
 .wrapper {
 	position: absolute;
@@ -126,6 +127,24 @@ h3, h4 {
 		margin: 0 auto;
 		max-width: 800px;
 	}
+}
+
+#video {
+	@media screen and (max-width: 768px) {
+		.item {
+			height: auto;
+			padding: 40px 6%;
+			.wrapper {
+				position: inherit;
+				transform: translate(0%, 0%);
+				left: 0;
+				top: 0;
+				margin: 0 auto;
+				width: 100%;
+			}
+		}
+	}
+	
 }
 
 #band {

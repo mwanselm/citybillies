@@ -97,6 +97,18 @@ h3, h4 {
     margin: 0 auto;
     max-width: 800px; }
 
+@media screen and (max-width: 768px) {
+  #video .item {
+    height: auto;
+    padding: 40px 6%; }
+    #video .item .wrapper {
+      position: inherit;
+      transform: translate(0%, 0%);
+      left: 0;
+      top: 0;
+      margin: 0 auto;
+      width: 100%; } }
+
 #band {
   background: white; }
   #band .person {
