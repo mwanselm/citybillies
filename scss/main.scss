@@ -23,6 +23,10 @@ h3, h4 {
 .navbar li a, .navbar .navbar-brand {
   color: #feb904 !important;
 }
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: transparent !important;
+}
+
 .logo {
 	padding: 75px 0 50px;
 	background: #010508;
