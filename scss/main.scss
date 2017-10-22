@@ -29,7 +29,8 @@ h3, h4 {
 
 .logo {
 	padding: 75px 0 50px;
-	background: #010508;
+	background: url(../images/logo-bg.jpg) no-repeat center;
+	background-size: cover;
 	svg {
 		display: block;
 		margin: 0 auto;
@@ -91,6 +92,7 @@ h3, h4 {
       color: #feb904 !important;
       text-transform: uppercase;
       font-size: 2em;
+		font-weight: 900;
 	}
 	.event {
 		text-align: center;
