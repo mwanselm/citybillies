@@ -1,63 +1,142 @@
-/*
-Error: Invalid CSS after "...form: uppercase": expected "{", was ";"
-        on line 83 of scss/main.scss
+@import url(base.css);
+body {
+  color: #0c455e; }
 
-78: 		margin: 0 auto 40px;
-79: 		h4 {
-80: 			//color: white;
-81: <<<<<<< HEAD
-82: 			//margin-bottom: 8px;
-83: 			text-transform: uppercase;
-84: 			color: #111 !important;
-85: 			background-color: transparent;
-86: =======
-87: 			margin-bottom: 8px;
-88: 			text-transform: uppercase; 
+nav svg {
+  display: block; }
 
-Backtrace:
-scss/main.scss:83
-/Users/manselm/.rvm/gems/ruby-2.2.4/gems/sass-3.5.1/lib/sass/scss/parser.rb:1278:in `expected'
-/Users/manselm/.rvm/gems/ruby-2.2.4/gems/sass-3.5.1/lib/sass/scss/parser.rb:1208:in `expected'
-/Users/manselm/.rvm/gems/ruby-2.2.4/gems/sass-3.5.1/lib/sass/scss/parser.rb:1203:in `tok!'
-/Users/manselm/.rvm/gems/ruby-2.2.4/gems/sass-3.5.1/lib/sass/scss/parser.rb:677:in `block'
-/Users/manselm/.rvm/gems/ruby-2.2.4/gems/sass-3.5.1/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
-/Users/manselm/.rvm/gems/ruby-2.2.4/gems/sass-3.5.1/lib/sass/scss/parser.rb:697:in `block_child'
-/Users/manselm/.rvm/gems/ruby-2.2.4/gems/sass-3.5.1/lib/sass/scss/parser.rb:686:in `block_contents'
-/Users/manselm/.rvm/gems/ruby-2.2.4/gems/sass-3.5.1/lib/sass/scss/parser.rb:678:in `block'
-/Users/manselm/.rvm/gems/ruby-2.2.4/gems/sass-3.5.1/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
-/Users/manselm/.rvm/gems/ruby-2.2.4/gems/sass-3.5.1/lib/sass/scss/parser.rb:697:in `block_child'
-/Users/manselm/.rvm/gems/ruby-2.2.4/gems/sass-3.5.1/lib/sass/scss/parser.rb:689:in `block_contents'
-/Users/manselm/.rvm/gems/ruby-2.2.4/gems/sass-3.5.1/lib/sass/scss/parser.rb:678:in `block'
-/Users/manselm/.rvm/gems/ruby-2.2.4/gems/sass-3.5.1/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
-/Users/manselm/.rvm/gems/ruby-2.2.4/gems/sass-3.5.1/lib/sass/scss/parser.rb:697:in `block_child'
-/Users/manselm/.rvm/gems/ruby-2.2.4/gems/sass-3.5.1/lib/sass/scss/parser.rb:689:in `block_contents'
-/Users/manselm/.rvm/gems/ruby-2.2.4/gems/sass-3.5.1/lib/sass/scss/parser.rb:678:in `block'
-/Users/manselm/.rvm/gems/ruby-2.2.4/gems/sass-3.5.1/lib/sass/scss/parser.rb:670:in `ruleset'
-/Users/manselm/.rvm/gems/ruby-2.2.4/gems/sass-3.5.1/lib/sass/scss/parser.rb:696:in `block_child'
-/Users/manselm/.rvm/gems/ruby-2.2.4/gems/sass-3.5.1/lib/sass/scss/parser.rb:689:in `block_contents'
-/Users/manselm/.rvm/gems/ruby-2.2.4/gems/sass-3.5.1/lib/sass/scss/parser.rb:137:in `stylesheet'
-/Users/manselm/.rvm/gems/ruby-2.2.4/gems/sass-3.5.1/lib/sass/scss/parser.rb:41:in `parse'
-/Users/manselm/.rvm/gems/ruby-2.2.4/gems/sass-3.5.1/lib/sass/engine.rb:414:in `_to_tree'
-/Users/manselm/.rvm/gems/ruby-2.2.4/gems/sass-3.5.1/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-/Users/manselm/.rvm/gems/ruby-2.2.4/gems/sass-3.5.1/lib/sass/engine.rb:307:in `render_with_sourcemap'
-/Users/manselm/.rvm/gems/ruby-2.2.4/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
-/Users/manselm/.rvm/gems/ruby-2.2.4/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Users/manselm/.rvm/gems/ruby-2.2.4/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:209:in `each'
-/Users/manselm/.rvm/gems/ruby-2.2.4/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Users/manselm/.rvm/gems/ruby-2.2.4/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
-/Users/manselm/.rvm/gems/ruby-2.2.4/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:320:in `block in watch'
-/Users/manselm/.rvm/gems/ruby-2.2.4/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
-/Users/manselm/.rvm/gems/ruby-2.2.4/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
-/Users/manselm/.rvm/gems/ruby-2.2.4/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
-/Users/manselm/.rvm/gems/ruby-2.2.4/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
-/Users/manselm/.rvm/gems/ruby-2.2.4/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
-/Users/manselm/.rvm/gems/ruby-2.2.4/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
-/Users/manselm/.rvm/gems/ruby-2.2.4/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
-/Users/manselm/.rvm/gems/ruby-2.2.4/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
-/Users/manselm/.rvm/gems/ruby-2.2.4/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `call'
-/Users/manselm/.rvm/gems/ruby-2.2.4/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...form: uppercase\": expected \"{\", was \";\"\A         on line 83 of scss/main.scss\A \A 78: 		margin: 0 auto 40px;\A 79: 		h4 {\A 80: 			//color: white;\A 81: <<<<<<< HEAD\A 82: 			//margin-bottom: 8px;\A 83: 			text-transform: uppercase;\A 84: 			color: #111 !important;\A 85: 			background-color: transparent;\A 86: =======\A 87: 			margin-bottom: 8px;\A 88: 			text-transform: uppercase; "; }
+h3, h4 {
+  color: #02131a; }
+
+.navbar {
+  background-color: #02131a; }
+
+.navbar-nav li.active a {
+  background-color: #0c495e !important;
+  color: #feb904 !important; }
+
+.navbar li a, .navbar .navbar-brand {
+  color: #feb904 !important; }
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: transparent !important; }
+
+.logo {
+  padding: 75px 0 50px;
+  background: #010508; }
+  .logo svg {
+    display: block;
+    margin: 0 auto; }
+
+.item {
+  height: 100vh;
+  background: url(../images/hero-1.JPG) no-repeat center;
+  background-size: cover; }
+  @media screen and (max-width: 450px) {
+    .item {
+      background: url(../images/bg-mobile.jpg) no-repeat center; } }
+
+.wrapper {
+  position: absolute;
+  width: 80%;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -60%); }
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto; }
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.events {
+  background: url(../images/bg-light.jpg) no-repeat center;
+  background-size: cover;
+  padding: 50px 6%; }
+  @media screen and (max-width: 450px) {
+    .events {
+      background: url(../images/bg-mobile-2.jpg) no-repeat center; } }
+  .events h3 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #feb904 !important;
+    text-transform: uppercase;
+    font-size: 2em; }
+  .events .event {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.87);
+    padding: 20px 6% 40px;
+    max-width: 800px;
+    margin: 0 auto 40px; }
+    .events .event h4 {
+      text-transform: uppercase;
+      color: #111 !important;
+      background-color: transparent; }
+    .events .event .description {
+      max-width: 500px;
+      margin: 0 auto 15px; }
+    .events .event .date, .events .event .venue {
+      color: #02131a;
+      width: 48%;
+      display: inline-block;
+      vertical-align: top;
+      margin-bottom: 15px;
+      font-size: .9em; }
+    .events .event .date {
+      text-align: right;
+      padding-right: 2%; }
+    .events .event .venue {
+      text-align: left;
+      padding-left: 2%; }
+  .events .embed-container {
+    margin: 0 auto;
+    max-width: 800px; }
+
+@media screen and (max-width: 768px) {
+  #video .item {
+    height: auto;
+    padding: 40px 6%; }
+    #video .item .wrapper {
+      position: inherit;
+      transform: translate(0%, 0%);
+      left: 0;
+      top: 0;
+      margin: 0 auto;
+      width: 100%; } }
+
+#band {
+  background: white; }
+  #band .person {
+    opacity: 1; }
+  #band .band-copy p {
+    margin-bottom: 25px; }
+  #band .col-sm-6 {
+    margin-bottom: 40px; }
+  #band .name {
+    margin-bottom: 0px;
+    line-height: 1; }
+  #band .role {
+    margin-bottom: 15px; }
+  @media screen and (max-width: 768px) {
+    #band {
+      padding: 60px 6%; } }
+
+footer {
+  background-color: #031519; }
+  footer a {
+    color: #feb904; }
+  footer ul li {
+    margin: 0 15px; }
+
+/*# sourceMappingURL=main.css.map */
