@@ -27,6 +27,20 @@ h3, h4 {
 	background-color: transparent !important;
 }
 
+.navbar-default .navbar-toggle:focus {
+	.icon-bar {
+		background-color: #feb904;
+	}
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: white;
+}
+
+.navbar-collapse {
+	border-top: 0px !important;
+}
+
 .logo {
 	padding: 75px 0 50px;
 	background: url(../images/logo-bg.jpg) no-repeat center;
