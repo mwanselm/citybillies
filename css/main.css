@@ -90,7 +90,12 @@ h3, h4 {
     .events .event h4 {
       text-transform: uppercase;
       color: #111 !important;
-      background-color: transparent; }
+      background-color: transparent;
+      line-height: 1.6; }
+      @media screen and (max-width: 48rem) {
+        .events .event h4 {
+          font-size: 2.2rem;
+          letter-spacing: 2px; } }
     .events .event .description {
       max-width: 600px;
       margin: 0 auto 15px; }
