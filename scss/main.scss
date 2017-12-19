@@ -13,6 +13,37 @@ nav {
 h3, h4 {
   color: #02131a;
 }
+
+.button {
+	color: white;
+	height: 46px;
+	line-height: 44px;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	background-color: #feb904;
+	margin: 40px auto 0px;
+	width: 200px;
+	border-radius: 3px;
+	font-weight: bold;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-decoration: none;
+	border: 1px solid transparent;
+	&:focus {
+		text-decoration: none;
+		opacity: .85;
+	}
+	&:hover {
+		color: #feb904;
+		border: 1px solid #feb904;
+		background-color: transparent;
+		text-decoration: none;
+	}
+}
+ 
+
 .navbar {
   background-color: #02131a;
 }
