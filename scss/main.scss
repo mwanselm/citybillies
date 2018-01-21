@@ -24,7 +24,7 @@ h3, h4 {
 	text-decoration: none;
 	background-color: #feb904;
 	margin: 40px auto 0px;
-	width: 200px;
+	max-width: 300px;
 	border-radius: 3px;
 	font-weight: bold;
 	font-size: 1.2em;
@@ -32,6 +32,8 @@ h3, h4 {
 	letter-spacing: 2px;
 	text-decoration: none;
 	border: 1px solid transparent;
+    padding: 0 1rem;
+    transition: all .3s ease-in-out;
 	&:focus {
 		text-decoration: none;
 		opacity: .85;
@@ -77,10 +79,20 @@ h3, h4 {
 	padding: 75px 0 50px;
 	background: url(../images/logo-bg.jpg) no-repeat center;
 	background-size: cover;
+    text-align: center;
 	svg {
 		display: block;
 		margin: 0 auto;
 	}
+    .button-text {
+        color: white;
+        font-weight: bold;
+        font-size: 3rem;
+        padding: 6rem 0 0;
+    }
+    .button {
+        margin-top: 20px;   
+    }
 }
 
 .item {
