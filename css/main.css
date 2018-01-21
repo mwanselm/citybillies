@@ -73,6 +73,9 @@ h3, h4 {
     padding: 6rem 0 0; }
   .logo .button {
     margin-top: 20px; }
+  .logo .fa-paper-plane {
+    margin-top: 4rem;
+    color: white; }
 
 .item {
   height: 100vh;
