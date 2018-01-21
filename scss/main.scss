@@ -257,6 +257,47 @@ h3, h4 {
 		
 	}
 }
+
+.social-links {
+    text-align: center;
+    background: black;
+    padding: 8rem 6rem;
+    .row {
+        
+       > div {
+            margin-bottom: 4rem;
+        } 
+    }
+    
+    h2 {
+        font-weight: bold;
+        margin-bottom: 40px;
+        color: white;
+    }
+    a {
+        font-size: 1.5rem;
+        //margin: 0 4rem;
+    }
+    .fa-facebook {
+        color: white;
+    }
+    .fa-spotify {
+        color: #6AE368;
+    }
+    .fa-instagram {
+        color: #D5708E;
+        //#FFFCD6,#EBEFCE,#B4DDCB,#D5708E,#604C6F,#FFFCD6,#EBEFCE,#B4DDCB
+    }
+    .fa-itunes {
+        color: white;
+    }
+    svg {
+        path {
+            //fill: red;
+        }
+    }
+    
+}
 footer {
   background-color: #031519;
   a {
