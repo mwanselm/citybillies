@@ -186,6 +186,9 @@ h4 {
     padding: 60px 6% 60px;
     max-width: 800px;
     margin: 0 auto; }
+    @media screen and (max-width: 48rem) {
+      #band #band-wrapper {
+        padding: 3rem; } }
   #band .person {
     opacity: 1; }
   #band .band-copy p {
@@ -208,7 +211,7 @@ h4 {
   padding: 8rem 6rem 6rem; }
   @media screen and (max-width: 48rem) {
     .social-links {
-      padding: 2rem; } }
+      padding: 2rem 0; } }
   .social-links .row > div {
     margin-bottom: 4rem; }
   .social-links h2 {
@@ -219,18 +222,32 @@ h4 {
     font-size: 1.5rem; }
   .social-links .fa-facebook {
     color: white; }
+    .social-links .fa-facebook path {
+      fill: white; }
   .social-links .fa-spotify {
     color: #6AE368; }
+    .social-links .fa-spotify path {
+      fill: #6AE368; }
   .social-links .fa-instagram {
     color: #D5708E; }
+    .social-links .fa-instagram path {
+      fill: #D5708E; }
   .social-links .fa-bandcamp {
     color: #feb904; }
+    .social-links .fa-bandcamp path {
+      fill: #feb904; }
   .social-links .fa-itunes {
-    color: #999; }
+    color: #ccc; }
+    .social-links .fa-itunes path {
+      fill: #ccc; }
   .social-links .fa-youtube {
     color: red; }
+    .social-links .fa-youtube path {
+      fill: red; }
   .social-links .fa-vimeo {
     color: #00ADEF; }
+    .social-links .fa-vimeo path {
+      fill: #00ADEF; }
 
 footer {
   background-color: #031519; }

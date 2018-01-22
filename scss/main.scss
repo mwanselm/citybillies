@@ -246,7 +246,9 @@ h4 {
         padding: 60px 6% 60px;
         max-width: 800px;
         margin: 0 auto;
-
+        @media screen and (max-width: 48rem) {
+            padding: 3rem;   
+        }
     }
     .person {
         opacity: 1;
@@ -281,7 +283,7 @@ h4 {
     background-size: cover;
     padding: 8rem 6rem 6rem;
     @media screen and (max-width: 48rem) {
-        padding: 2rem;
+        padding: 2rem 0;
     }
     .row {
 
@@ -300,24 +302,45 @@ h4 {
     }
     .fa-facebook {
         color: white;
+        path {
+            fill: white;
+        }
     }
     .fa-spotify {
         color: #6AE368;
+        path {
+            fill: #6AE368; 
+        }
     }
     .fa-instagram {
         color: #D5708E; //#FFFCD6,#EBEFCE,#B4DDCB,#D5708E,#604C6F,#FFFCD6,#EBEFCE,#B4DDCB
+        path {
+            fill: #D5708E;  
+        }
     }
     .fa-bandcamp {
         color: #feb904;
+        path {
+            fill: #feb904;
+        }
     }
     .fa-itunes {
-        color: #999;
+        color: #ccc;
+        path {
+            fill:#ccc;
+        }
     }
     .fa-youtube {
         color: red;
+        path {
+            fill:red;
+        }
     }
     .fa-vimeo {
         color: #00ADEF;
+        path {
+            fill:#00ADEF;
+        }
     }
     svg {
         path {
