@@ -5,7 +5,8 @@ body {
 nav svg {
   display: block; }
 
-h3, h4 {
+h3,
+h4 {
   color: #02131a; }
 
 .button {
@@ -43,10 +44,12 @@ h3, h4 {
   background-color: #0c495e !important;
   color: #feb904 !important; }
 
-.navbar li a, .navbar .navbar-brand {
+.navbar li a,
+.navbar .navbar-brand {
   color: #feb904 !important; }
 
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
   background-color: transparent !important; }
 
 .navbar-default .navbar-toggle:focus .icon-bar {
@@ -122,7 +125,7 @@ h3, h4 {
     font-weight: 900; }
     @media screen and (max-width: 450px) {
       .events h3 {
-        font-size: 1rem; } }
+        font-size: 1.7rem; } }
   .events .event {
     text-align: center;
     background-color: rgba(255, 255, 255, 0.87);
@@ -141,7 +144,8 @@ h3, h4 {
     .events .event .description {
       max-width: 600px;
       margin: 0 auto 15px; }
-    .events .event .date, .events .event .venue {
+    .events .event .date,
+    .events .event .venue {
       color: #02131a;
       width: 48%;
       display: inline-block;
