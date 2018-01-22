@@ -205,7 +205,10 @@ h4 {
   text-align: center;
   background: url(../images/logo-bg.jpg) no-repeat center;
   background-size: cover;
-  padding: 8rem 6rem; }
+  padding: 8rem 6rem 6rem; }
+  @media screen and (max-width: 48rem) {
+    .social-links {
+      padding: 2rem; } }
   .social-links .row > div {
     margin-bottom: 4rem; }
   .social-links h2 {
@@ -220,8 +223,14 @@ h4 {
     color: #6AE368; }
   .social-links .fa-instagram {
     color: #D5708E; }
+  .social-links .fa-bandcamp {
+    color: #feb904; }
   .social-links .fa-itunes {
-    color: white; }
+    color: #999; }
+  .social-links .fa-youtube {
+    color: red; }
+  .social-links .fa-vimeo {
+    color: #00ADEF; }
 
 footer {
   background-color: #031519; }
