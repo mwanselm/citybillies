@@ -203,7 +203,8 @@ h4 {
 
 .social-links {
   text-align: center;
-  background: black;
+  background: url(../images/logo-bg.jpg) no-repeat center;
+  background-size: cover;
   padding: 8rem 6rem; }
   .social-links .row > div {
     margin-bottom: 4rem; }
