@@ -83,12 +83,12 @@ h4 {
     margin-top: 4rem;
     color: white; }
 
-.item {
+#myCarousel .item {
   height: 100vh;
   background: url(../images/hero-1.JPG) no-repeat center;
   background-size: cover; }
   @media screen and (max-width: 450px) {
-    .item {
+    #myCarousel .item {
       background: url(../images/bg-mobile.jpg) no-repeat center; } }
 
 .wrapper {
@@ -119,6 +119,8 @@ h4 {
   background: url(../images/bg-light.jpg) no-repeat center;
   background-size: cover;
   padding: 50px 6%; }
+  .events #event-carousel {
+    margin-bottom: 1.5rem; }
   .events h3 {
     text-align: center;
     margin-bottom: 40px;
@@ -128,7 +130,7 @@ h4 {
     font-weight: 900; }
     @media screen and (max-width: 450px) {
       .events h3 {
-        font-size: 2rem; } }
+        font-size: 3rem; } }
   .events .event {
     text-align: center;
     background-color: rgba(255, 255, 255, 0.87);
