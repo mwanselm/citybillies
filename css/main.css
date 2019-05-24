@@ -265,4 +265,7 @@ footer {
   footer ul li {
     margin: 0 15px; }
 
+.carousel-inner img {
+  filter: none; }
+
 /*# sourceMappingURL=main.css.map */
