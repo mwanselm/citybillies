@@ -181,7 +181,7 @@ h4 {
 }
 .events .event .description {
   max-width: 600px;
-  margin: 0 auto 15px;
+  margin: 0 auto;
 }
 .events .event .description a {
   font-size: 1.75rem;
