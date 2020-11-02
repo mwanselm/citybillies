@@ -347,6 +347,9 @@ footer ul li {
   filter: none;
 }
 
+.wis {
+  padding-top: 32px;
+}
 .wis h1, .wis h2, .wis a, .wis p, .wis a:hover, .wis a:focus {
   color: white;
 }
