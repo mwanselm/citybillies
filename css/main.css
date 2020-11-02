@@ -347,4 +347,11 @@ footer ul li {
   filter: none;
 }
 
+.album-hover {
+  color: blue;
+}
+.album-hover img {
+  max-width: 100%;
+}
+
 /*# sourceMappingURL=main.css.map */
