@@ -347,9 +347,13 @@ footer ul li {
   filter: none;
 }
 
-.album-hover {
-  color: blue;
+.wis h1, .wis h2, .wis a, .wis p, .wis a:hover, .wis a:focus {
+  color: white;
 }
+.wis .row {
+  margin: 24px 0;
+}
+
 .album-hover img {
   max-width: 100%;
 }

@@ -382,9 +382,15 @@ footer {
         filter: none;
     }
 }
-
+.wis {
+    h1, h2, a, p, a:hover, a:focus {
+        color: white;
+    }
+    .row {
+        margin: 24px 0;
+    }
+}
 .album-hover {
-    color: blue;
     img {
         max-width: 100%;
     }
