@@ -357,8 +357,17 @@ footer ul li {
   margin: 24px 0;
 }
 
+.album-hover {
+  text-align: center;
+  padding: 20px 0 50px;
+}
+.album-hover a {
+  margin: 0 auto;
+}
 .album-hover img {
   max-width: 100%;
+  width: 295px;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -392,7 +392,14 @@ footer {
     }
 }
 .album-hover {
+    text-align: center;
+    padding: 20px 0 50px;
+    a {
+        margin: 0 auto;
+    }
     img {
         max-width: 100%;
+        width: 295px;
+        margin: 0 auto;
     }
 }
