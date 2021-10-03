@@ -370,4 +370,50 @@ footer ul li {
   margin: 0 auto;
 }
 
+#links {
+  background: white;
+}
+#links .link-wrap {
+  position: relative;
+}
+#links .link-header {
+  text-align: center;
+}
+#links .link-header .branding {
+  box-shadow: 0 0.5px 0 0 #ddd;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 16px 0;
+}
+#links .link-header .branding img {
+  width: 44px;
+  display: inline-block;
+  margin-right: 16px;
+}
+#links .link-header .branding p {
+  margin: 0;
+  color: black;
+}
+#links .link-header .link-info {
+  color: #999;
+  font-size: 14px;
+  padding: 16px 0;
+}
+#links .links {
+  display: flex;
+  margin: 0 auto;
+  max-width: 800px;
+  width: 88%;
+  flex-wrap: wrap;
+}
+#links .links a {
+  flex: 0 0 33.33%;
+  width: 33.33%;
+  padding: 5px;
+}
+#links .links a img {
+  max-width: 100%;
+}
+
 /*# sourceMappingURL=main.css.map */
