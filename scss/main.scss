@@ -439,14 +439,14 @@ footer {
         display: flex;
         margin: 0 auto;
         max-width: 800px;
-        width: 88%;
+        //width: 88%;
         // column-gap: 5px;
         // row-gap: 5px;
         flex-wrap: wrap;
         a {
             flex: 0 0 33.33%;
             width: 33.33%;
-            padding: 5px;
+            padding: 2px;
             img {
                 max-width: 100%;
             }

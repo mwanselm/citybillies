@@ -404,13 +404,12 @@ footer ul li {
   display: flex;
   margin: 0 auto;
   max-width: 800px;
-  width: 88%;
   flex-wrap: wrap;
 }
 #links .links a {
   flex: 0 0 33.33%;
   width: 33.33%;
-  padding: 5px;
+  padding: 2px;
 }
 #links .links a img {
   max-width: 100%;
